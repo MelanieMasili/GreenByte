@@ -1,0 +1,28 @@
+
+# Frontend
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Backend
+**/target/
+**/build/
+
+# H2-Datenbank
+**/data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Lokale Konfiguration
+.env
+.env.*
+!.env.example
+
+# Entwicklungsumgebungen
+.vscode/
+.idea/
+
+# Temporäre Dateien
+*.log
+*.tmp
